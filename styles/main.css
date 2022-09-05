@@ -130,7 +130,7 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background: center/cover url(../img/header-img.jpg);
+  background: center/cover fixed url(../img/header-img.jpg);
   position: relative;
 }
 
