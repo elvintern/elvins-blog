@@ -80,6 +80,11 @@ body {
   word-spacing: 0.7rem;
 }
 
+.heading-tertiary {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
 .btn {
   text-decoration: none;
   color: #fff;
@@ -117,13 +122,6 @@ body {
   height: 3px;
   margin: 3rem auto 4rem;
   background-color: rgb(26, 179, 100);
-}
-
-.paragraph {
-  margin: 0 auto 2rem;
-  font-size: 2rem;
-  width: 65%;
-  text-align: center;
 }
 
 /* *********************************************** */
@@ -164,4 +162,58 @@ body {
   margin: 0 auto 3rem;
   border-radius: 10rem;
   object-fit: cover;
+}
+
+.section-about__paragraph {
+  margin: 0 auto 2rem;
+  font-size: 2rem;
+  width: 65%;
+  text-align: center;
+}
+
+/* *********************************************** */
+/* Section-Blog Style */
+/* *********************************************** */
+.section-blog {
+  padding: 10rem 17rem;
+  background-color: bisque;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5%;
+}
+
+.blog {
+  background-color: rgb(255, 166, 197);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #111;
+  margin-bottom: 3.5%;
+  flex-basis: 31%;
+  transition: 0.2s linear;
+}
+
+.blog:hover {
+  transform: translateY(-20px);
+}
+
+.blog__sprint {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.blog__img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.blog__description {
+  margin-top: 1rem;
+}
+
+.blog__description::first-letter {
+  text-transform: uppercase;
 }
