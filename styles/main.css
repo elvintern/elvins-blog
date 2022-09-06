@@ -166,7 +166,7 @@ body {
 /* Section-About Style */
 /* *********************************************** */
 .section-about {
-  padding: 10rem 17rem;
+  padding: 12vh 17rem;
 }
 
 .section-about__img {
@@ -189,7 +189,7 @@ body {
 /* Section-Blog Style */
 /* *********************************************** */
 .section-blog {
-  padding: 10rem 17rem;
+  padding: 12vh 17rem;
   background-color: bisque;
 }
 
