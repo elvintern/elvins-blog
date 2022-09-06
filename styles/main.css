@@ -30,12 +30,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(160, 210, 254, 0.7);
-  border-top: solid 3px bisque;
   border-bottom: solid 3px bisque;
 }
 
 .nav__logo-img {
-  width: 25rem;
+  height: 11vh;
 }
 
 .nav__list {
