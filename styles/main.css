@@ -51,7 +51,7 @@ body {
   padding-bottom: 0.5rem;
   border-bottom: solid 2px transparent;
   color: #222;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   transition: 0.2s linear;
 }
@@ -59,6 +59,21 @@ body {
 .nav__link:hover {
   color: #666;
   border-bottom: solid 2px rgb(9, 116, 9);
+}
+
+.hamburger {
+  display: none;
+  font-size: 4rem;
+  position: absolute;
+  right: 13%;
+  top: 25%;
+  cursor: pointer;
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 4rem;
+  text-align: center;
+  line-height: 180%;
 }
 
 .heading-primary {

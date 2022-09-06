@@ -1,0 +1,74 @@
+/* *********************************************** */
+/* Desktop Size (1200px +) */
+/* *********************************************** */
+@media only screen and (min-width: 1200px) {
+}
+
+/* *********************************************** */
+/* Tablet Size (768px ~ 1200px) */
+/* *********************************************** */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 54%;
+  }
+
+  .nav {
+    padding: 0 7rem;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .section-about__paragraph {
+    width: 90%;
+  }
+
+  .section-blog {
+    padding: 10rem;
+    background-color: bisque;
+  }
+}
+
+/* *********************************************** */
+/* Mobile Size (320px ~ 768px) */
+/* *********************************************** */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 48%;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    top: 100%;
+    text-align: right;
+    gap: 2rem;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s linear;
+  }
+
+  .show {
+    height: 30rem;
+  }
+
+  .nav__link {
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  .link-bg {
+    background-color: rgb(255, 144, 144);
+    padding: 0.5rem 1rem;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
