@@ -60,8 +60,84 @@
       <i class="fas fa-bars hamburger"></i>
     </nav>
     <main class="main">
-      What does it mean to display inline vs inline blocks?
+      <h1 class="heading-primary">
+        What does it mean to display inline vs inline blocks?
+      </h1>
+      <p class="paragraph">
+        The major difference between “display: inline;” and “display:
+        inline-block” is that you can set a width and height on the element
+        displayed inline-block. Also, with display: inline, top and bottom
+        margins & paddings are not respected, and with display: inline-block
+        they are.
+        <br />
+        <br />
+        Here are some visual examples:
+      </p>
+      <h2 class="heading-secondary">display: inline</h2>
+      <p class="paragraph">
+        Notice here how the width and height are not respected, and how the
+        padding top and bottom are present, but overlap over the lines above and
+        under.
+      </p>
+      <img src="../img/blog1-test1.PNG" alt="test code" class="test-code-img" />
+      <div class="example-box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius non quis
+        magni, aspernatur velit esse quod molestias veniam excepturi
+        consectetur, dolorum repellat maiores aut accusamus at! Dolorum amet
+        dolor cupiditate?Lorem, ipsum dolor<span class="test-1">Test 1</span
+        ><span class="test-2">Test 2</span> sit amet consectetur adipisicing
+        elit. Debitis dolorum, inventore perferendis sed nisi hic vero
+        laboriosam, ut earum tenetur exercitationem quia, sint laudantium.
+        Mollitia aperiam at accusamus tenetur voluptas.
+      </div>
+
+      <h2 class="heading-secondary">display: inline-block</h2>
+      <p class="paragraph">
+        Here the width, height and padding are respected, but the two copies of
+        the element can still sit side by side.
+      </p>
+      <img src="../img/blog1-test2.PNG" alt="test code" class="test-code-img" />
+      <div class="example-box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius non quis
+        magni, aspernatur velnisi hic vero laboriosam, ut earum tenetur
+        exercitationem quia,<span class="test-3">Test 3</span
+        ><span class="test-4">Test 4</span> consectetur, dolorum repellat
+        maiores aut accusamus at! Dolorum amet dolor cupiditate?Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Debitis dolorum, inventore
+        perferendis sed nisi hic vero laboriosam, ut earum tenetur
+        exercitationem quia, sint laudantium. Mollitia aperiam at accusamus
+        tenetur voluptas.
+      </div>
+
+      <p class="paragraph">
+        I hope this post helps you understand how different "display: inline"
+        and "display: inline-block"
+      </p>
     </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a
+            href="https://www.linkedin.com/in/jinwoo-park-24aa42226/"
+            class="footer__link"
+            ><i class="fab fa-linkedin footer__icon"></i
+          ></a>
+        </li>
+        <li class="footer__item">
+          <a href="https://github.com/elvintern" class="footer__link"
+            ><i class="fab fa-github footer__icon"></i
+          ></a>
+        </li>
+        <li class="footer__item">
+          <a href="mailto: elvintern@gmail.com" class="footer__link"
+            ><i class="fas fa-envelope footer__icon"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        Handcrafted By Jinwoo Park © 2022. All Rights Reserved.
+      </p>
+    </footer>
     <script src="../js/index.js"></script>
   </body>
 </html>

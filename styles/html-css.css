@@ -77,6 +77,105 @@ body {
 }
 
 /* *********************************************** */
+/* Main Style */
+/* *********************************************** */
+.main {
+  margin-top: 12vh;
+  padding: 5rem 10rem;
+  background-color: bisque;
+}
+
+.heading-primary {
+  /* margin-bottom: 2rem; */
+}
+
+.heading-secondary {
+  margin: 2rem 0;
+}
+
+.paragraph {
+  font-size: 2rem;
+  width: 60%;
+  margin: 2rem 0;
+}
+
+.example-box {
+  background-color: rgb(143, 255, 255);
+  width: 50%;
+  padding: 2rem;
+}
+
+.test-code-img {
+  width: 30rem;
+}
+
+.test-1 {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: red;
+}
+
+.test-2 {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+}
+
+.test-3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: red;
+}
+
+.test-4 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+}
+
+/* *********************************************** */
+/* Footer Style */
+/* *********************************************** */
+.footer {
+  padding: 5rem 17rem;
+  background-color: rgb(184, 73, 0);
+  color: #fff;
+}
+
+.footer__list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer__item {
+  transition: 0.2s linear;
+}
+
+.footer__item:hover {
+  transform: translateY(-10px);
+}
+
+.footer__link {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* *********************************************** */
 /* Media Style */
 /* *********************************************** */
 /* Tablet Size (768px ~ 1200px) */
@@ -92,6 +191,15 @@ body {
 
   .nav__item:not(:last-child) {
     margin-right: 2rem;
+  }
+
+  .main {
+    padding: 5rem;
+    background-color: bisque;
+  }
+
+  .paragraph {
+    width: 80%;
   }
 }
 
@@ -135,6 +243,10 @@ body {
 
   .hamburger {
     display: block;
+  }
+
+  .footer {
+    padding: 5rem;
   }
 }
 
