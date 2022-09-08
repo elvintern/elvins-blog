@@ -32,7 +32,7 @@
 }
 
 /* *********************************************** */
-/* Mobile Size (320px ~ 768px) */
+/* Mobile Size (~ 768px) */
 /* *********************************************** */
 @media only screen and (max-width: 768px) {
   html {
@@ -71,5 +71,54 @@
 
   .hamburger {
     display: block;
+  }
+
+  .section-about {
+    padding: 12vh 6rem;
+  }
+
+  .section-blog {
+    padding: 12vh 3rem;
+  }
+
+  .blog-list {
+    gap: 10%;
+  }
+
+  .blog {
+    padding: 2.5rem 2rem;
+    margin-bottom: 3.5%;
+    flex-basis: 45%;
+  }
+
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+
+  .footer {
+    padding: 5rem;
+  }
+}
+
+/* *********************************************** */
+/* Small Mobile Size (320px ~ 400px) */
+/* *********************************************** */
+@media only screen and (max-width: 400px) {
+  .nav {
+    padding: 0 1rem;
+  }
+
+  .section-blog {
+    padding: 12vh 5rem;
+  }
+
+  .blog-list {
+    gap: 0;
+  }
+
+  .blog {
+    padding: 2.5rem 2.5rem;
+    margin-bottom: 3.5%;
+    flex-basis: 100%;
   }
 }
