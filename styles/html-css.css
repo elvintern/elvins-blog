@@ -1,0 +1,140 @@
+/* *********************************************** */
+/* General Style */
+/* *********************************************** */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 1.6rem 'Lato', sans-serif;
+}
+
+/* *********************************************** */
+/* Utility Style */
+/* *********************************************** */
+.nav {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  padding: 0 17rem;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(160, 210, 254, 0.7);
+  border-bottom: solid 3px bisque;
+}
+
+.nav__logo-img {
+  height: 11vh;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 2px transparent;
+  color: #222;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  transition: 0.2s linear;
+}
+
+.nav__link:hover {
+  color: #666;
+  border-bottom: solid 2px rgb(9, 116, 9);
+}
+
+.hamburger {
+  display: none;
+  font-size: 4rem;
+  position: absolute;
+  right: 13%;
+  top: 20%;
+  cursor: pointer;
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 4rem;
+  text-align: center;
+  line-height: 180%;
+}
+
+/* *********************************************** */
+/* Media Style */
+/* *********************************************** */
+/* *********************************************** */
+/* Tablet Size (768px ~ 1200px) */
+/* *********************************************** */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 54%;
+  }
+
+  .nav {
+    padding: 0 7rem;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+/* *********************************************** */
+/* Mobile Size (320px ~ 768px) */
+/* *********************************************** */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    top: 100%;
+    text-align: right;
+    gap: 2rem;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s linear;
+  }
+
+  .show {
+    height: 30rem;
+  }
+
+  .nav__link {
+    color: #fff;
+    font-size: 3.5rem;
+  }
+
+  .link-bg {
+    background-color: rgb(255, 144, 144);
+    padding: 0.5rem 1rem;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
