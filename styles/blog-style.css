@@ -86,7 +86,7 @@ body {
 }
 
 .heading-primary {
-  /* margin-bottom: 2rem; */
+  text-transform: capitalize;
 }
 
 .heading-secondary {
