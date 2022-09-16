@@ -87,16 +87,17 @@ body {
 
 .heading-primary {
   text-transform: capitalize;
+  margin-bottom: 5rem;
 }
 
 .heading-secondary {
-  margin: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .paragraph {
   font-size: 2rem;
   width: 60%;
-  margin: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .example-box {
